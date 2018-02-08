@@ -76,7 +76,7 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "我们一起迎接2018"
-    subtitle = "厦门的老牌科技公司的重新崛起！"
+    subtitle = "准备崛起！"
     buttonText = "了解更多"
 
 
@@ -128,7 +128,7 @@ googleAnalytics = ""
     enable = true
     title = "历史"
     subtitle = "要休息，坟墓里有的是时间。"
-    endpoint = "遇<br>见<br>你！"
+    endpoint = "遇<br>见<br>你"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -165,7 +165,7 @@ googleAnalytics = ""
     #center = true
     title = "团队"
     subtitle = "我们拥有一支虎狼之师！"
-    description = "夫运筹于帷幄之中，决胜于千里之外，吾不如子房；镇国家，抚百姓，给饷馈，不绝粮道，吾不如萧何；连百万之军，战必胜，攻必克，吾不如韩信。三者皆人杰也。吾能用之，此吾所以有天下也。————刘邦"
+    description = "夫运筹于帷幄之中，决胜于千里之外，吾不如子房；镇国家，抚百姓，给饷馈，不绝粮道，吾不如萧何；连百万之军，战必胜，攻必克，吾不如韩信。三者皆人杰也。吾能用之，此吾所以有天下也。——刘邦"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -240,9 +240,9 @@ googleAnalytics = ""
   # Contact section
   [params.contact]
     enable = true
-    title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    title = "联系我们"
+    subtitle  = "您有任何想说的，我们都想知道！"
+    buttonText = "发送"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -270,19 +270,19 @@ googleAnalytics = ""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "您的姓名 *"
       warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
+      text = "您的Email *"
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "您的电话 *"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message *"
+      text = "留言内容 *"
       warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
