@@ -45,14 +45,14 @@ googleAnalytics = ""
 
   # Navigation
   [params.navigation]
-    brand = "厦门在线"
+    brand = "厦门在线信息技术有限公司"
     # Optional logo as brand stored in img/
     #logo = "logo.svg"
-    services = "服务"
+    services = "主营业务"
     portfolio = "作品"
     about = "历史"
     team = "团队"
-    contact = "联系"
+    contact = "联系我们"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -75,35 +75,35 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "我们一起迎接2018"
+    subtitle = "厦门的老牌科技公司的重新崛起！"
+    buttonText = "了解更多"
 
 
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "主营业务"
+    subtitle = "我们依然为您制作精美的网站，以及APP。"
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "新电子商务"
+      description = "区块链+电商，基于区块链的共享信任体系，区块链上的所有参与者（买家和卖家和其他人）都是在一个共享的信任体，无论是谁出现问题，所有记录都可以查到。"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "官网设计"
+      description = "拥有国内最专业的设计团队，近百名设计人员随时为您服务，对网站的整体风格和特色作出定位，完成网站的构思创意即总体设计方案。随后由一些天才程序员来完成其余的工作。"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      title = "手机APP"
+      description = "我们的手机APP业务已经发展了很多年，做出了大量优秀的作品。我们形成了自己的技术壁垒，同时我们又大胆采用先进技术，如swift 4.0，Kotlin以加速APP的开发。"
       url = "#"
 
   # Portfolio section
@@ -113,49 +113,49 @@ googleAnalytics = ""
     # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
     # at the root of this Hugo site.
     # For more informtion take a look at the README.
-    title = "Portfolio"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    title = "作品"
+    subtitle = "我们最满意的作品永远在未来。"
 
     [params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+      client = "客户"
+      date = "日期"
+      category = "类型"
+      buttonText = "我看完了"
 
 
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "历史"
+    subtitle = "要休息，坟墓里有的是时间。"
+    endpoint = "遇<br>见<br>你！"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "1999-2005"
+      title = "初创时期"
+      description = "公司不断完善自身的服务体系，发展自己的核心技术，培养了大批优秀工程师。在短短几年时间里，迅速成长为业内领先的知名企业。业务主要集中于企业互联网应用服务和电子商务应用服务，拥有近百家网站组成的“绿色电子杂志发布联盟”。"
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2005-2010"
+      title = "电子商务"
+      description = "这五年公司在电子商务方面取得了辉煌的成绩。2010年，公司于厦门海沧区东埔玛瑙村玛瑙协会签订协议，在阿里巴巴上专营该村的玛瑙、玛瑙饰品、玛瑙戒指、玛瑙手镯、玛瑙手链、玛瑙挂坠、玛瑙象棋、玛瑙围棋、玛瑙麻将。"
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2010-2017"
+      title = "多元化"
+      description = "公司勇往直前，在核心业务的支撑下，向婚庆行业、红酒行业进军。并成功培养出多个优秀团队，包括：好日子婚车租赁车队、爱在情深婚庆喜庄、华夏酒报营销团队、厦门爱酒人俱乐部等。向集团公司迈出了一大步。"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "2017-2018"
+      title = "筹备上市"
+      description = "尽管成绩如此优异，公司并不满足于此。公司安排了几名天才程序员组建了“厦门在线区块链研究中心”、“厦门在线AI实验室”，准备向互联网金融、人工智能方向进军，在2022年实现纳斯达克上市。"
 
 
   # Team section
@@ -163,9 +163,9 @@ googleAnalytics = ""
     enable = true
     # Possibility to center items
     #center = true
-    title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    title = "团队"
+    subtitle = "我们拥有一支虎狼之师！"
+    description = "夫运筹于帷幄之中，决胜于千里之外，吾不如子房；镇国家，抚百姓，给饷馈，不绝粮道，吾不如萧何；连百万之军，战必胜，攻必克，吾不如韩信。三者皆人杰也。吾能用之，此吾所以有天下也。————刘邦"
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
@@ -174,16 +174,16 @@ googleAnalytics = ""
       img = "1.jpg"
       name = "Kay Garland"
       position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      # reportsTo = "CTO"
+      # livesIn = "[Munich, Germany](#some-maps-url)"
+      # scope = [
+      #   "UX for [member dashboard](#)",
+      #   "Maintainer for [awesome-project](#)",
+      #   "Open Source [community management](#)"
+      # ]
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      # bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+# She worked at Pied Piper for years until they went belly up."""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
