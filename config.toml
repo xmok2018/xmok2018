@@ -295,7 +295,7 @@ googleAnalytics = ""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "@1999-2018 厦门在线信息技术有限公司 版权所有"
 
     [[params.footer.social]]
       icon = "fa-twitter"
