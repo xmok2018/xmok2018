@@ -177,12 +177,11 @@ googleAnalytics = ""
       # livesIn = "[Munich, Germany](#some-maps-url)"
       scope = [
         "Developer for [xmok](#)",
-        "Maintainer for [rrotan](http://i9r.github.io)",
+        "Maintainer for [rrotan](http://rrotan.github.io)",
         "Open Source [community management](#)"
       ]
-      For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-		She worked at Pied Piper for years until they went belly up."""
+      # For bio markdown and even multiline strings are available.
+      bio = """罗坦是一名全栈工程师，他已为厦门在线效力16年。"""
       social = [
         ["fa-twitter", "#"],
         ["fa-facebook", "#"],
