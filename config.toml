@@ -260,7 +260,7 @@ googleAnalytics = ""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "rrrrotan@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -269,19 +269,19 @@ googleAnalytics = ""
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
       text = "您的姓名 *"
-      warning = "Please enter your name."
+      warning = "请输入您的姓名"
 
     [params.contact.form.email]
       text = "您的Email *"
-      warning = "Please enter your email address."
+      warning = "请输入您的Email"
 
     [params.contact.form.phone]
       text = "您的电话 *"
-      warning = "Please enter your phone number."
+      warning = "请输入您的电话"
 
     [params.contact.form.message]
       text = "留言内容 *"
-      warning = "Please enter a message."
+      warning = "请输入留言内容"
 
       # Add optional form fields to identify contact forms
       #[[params.contact.form.hidden]]
