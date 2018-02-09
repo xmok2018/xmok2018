@@ -65,11 +65,10 @@ googleAnalytics = ""
     #  weight = 10
 
     # postpended links
-    # [[menu.postpend]]
-    # url = "http://gohugo.io"
-    # name = "External link"
-    # weight = 10
-
+    [[menu.postpend]]
+    url = "http://i9r.github.io"
+    name = "爱酒人俱乐部"
+    weight = 10
 
   # Hero section
   [params.hero]
