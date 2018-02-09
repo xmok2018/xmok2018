@@ -169,8 +169,28 @@ googleAnalytics = ""
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
-    [[params.team.members]]
+     [[params.team.members]]
       img = "1.jpg"
+      name = "Kay Garland"
+      position = "Lead Designer"
+      reportsTo = "CTO"
+      livesIn = "[Munich, Germany](#some-maps-url)"
+      scope = [
+        "UX for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
+She worked at Pied Piper for years until they went belly up."""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
+
+    [[params.team.members]]
+      img = "2.jpg"
       name = "罗坦"
       position = "CTO"
       # reportsTo = "CTO"
@@ -188,25 +208,23 @@ googleAnalytics = ""
         ["fa-linkedin", "#"]
       ]
 
-    # [[params.team.members]]
-    #   img = "2.jpg"
-    #   name = "Larry Parker"
-    #   position = "Lead Marketer"
-    #   social = [
-    #     ["fa-twitter", "#"],
-    #     ["fa-facebook", "#"],
-    #     ["fa-linkedin", "#"]
-    #   ]
-
-    # [[params.team.members]]
-    #   img = "3.jpg"
-    #   name = "Diana Pertersen"
-    #   position = "Lead Developer"
-    #   social = [
-    #     ["fa-twitter", "#"],
-    #     ["fa-facebook", "#"],
-    #     ["fa-linkedin", "#"]
-    #   ]
+    [[params.team.members]]
+      img = "3.jpg"
+      name = "Larry Parker"
+      position = "Lead Marketer"
+      reportsTo = "CTO"
+      scope = [
+        "Programmer for [member dashboard](#)",
+        "Maintainer for [awesome-project](#)",
+        "Open Source [community management](#)"
+      ]
+      # For bio markdown and even multiline strings are available.
+      bio = """一名天才程序员"""
+      social = [
+        ["fa-twitter", "#"],
+        ["fa-facebook", "#"],
+        ["fa-linkedin", "#"]
+      ]
 
   # Client section
     [params.clients_list]
